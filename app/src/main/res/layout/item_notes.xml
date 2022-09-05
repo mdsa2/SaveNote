@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+app:cardBackgroundColor="#707070"
+    app:cardCornerRadius="10dp">
+     <View
+         android:layout_width="20dp"
+         android:id="@+id/viewPriority"
+         android:layout_height="20dp"
+         android:background="@drawable/reddot"
+         android:layout_gravity="right"
+         android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:id="@+id/notesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:text="dsadasfdal;ajwaojn"
+     android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/notesSubtitle"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="5dp"
+            android:text="dsadasfdal; ajwao jawodn adm a treregre regresagesrgsdrgre re bsaeregs ergsseg garsewga djwhd aih;anbauwhahlivhauvhdanjjvddajnivb avaf bsabrfebnckihdasbfaslahsfbacise;"
+
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/notesData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:layout_marginLeft="4dp"
+            android:text="23 April 2021 "
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
